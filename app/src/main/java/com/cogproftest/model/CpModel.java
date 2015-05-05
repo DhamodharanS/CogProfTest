@@ -1,12 +1,12 @@
-package com.cogproftest;
-
-/**
- * Created by Krishna on 01/05/15.
- */
+package com.cogproftest.model;
 
 import com.google.gson.annotations.SerializedName;
+
 import java.util.ArrayList;
 
+/*
+ * Implementation of Model Class
+ */
 public class CpModel {
 
     @SerializedName("title")
@@ -32,8 +32,12 @@ public class CpModel {
     public ArrayList<CpModelRows> getCpModelRows() {
         return cpModelRows;
     }
+
+
     public void setCpModelRows(ArrayList<CpModelRows> cpModelRows) {
-        this.cpModelRows = cpModelRows;
+
+              this.cpModelRows = cpModelRows;
+
     }
 
 }

@@ -1,9 +1,11 @@
-package com.cogproftest;
+package com.cogproftest.model;
 
-/**
- * Created by Krishna on 01/05/15.
- */
 import com.google.gson.annotations.SerializedName;
+
+
+/*
+ * Implementation of Rows Class
+ */
 
 public class CpModelRows {
 
